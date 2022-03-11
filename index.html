@@ -80,7 +80,51 @@
         <section><h1 class="text-center">Question and Answer</h1>
                <h2>How does javascript work?</h2>
                <h2>What does javascript event loop do?</h2>
-               <h2>Differentiate between local storage and session storage</h2>
+               <h4 class="mx-4" >2.Differentiate between local storage and session storage</h4>
+               <table class="table table-striped w-75 mx-auto">
+                <thead>
+                  <tr>
+                   
+                    <th scope="col">Local storage</th>
+                    <th scope="col">Session storage</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+              
+                    <td>We can delete local storage data by javascript code or manually</td>
+                    <td>Session storage data is deleted when we close the window or tab</td>
+                  </tr>
+                  <tr>
+                  
+                    <td>
+                        We can access the data from any window.
+                    </td>
+                    <td>We can only access the data only the same window</td>
+                    
+                  </tr>
+                  <tr>
+                   
+                    <td>For saving data in local storage we write <br> localStorage.setItem('key', 'value');</td>
+                    <td>For saving data in session storage we write <br> rsessionStorage.setItem('key', 'value');</td>
+                   
+                  </tr>
+                  <tr>
+                   
+                    <td>For getting item from  local storage we write;<br> let data = localStorage.getItem('key');</td>
+                    <td>For getting item from  local storage we write;<br> let data = sessionStorage.getItem('key');</td>
+                   
+                  </tr>
+                  <tr>
+                   
+                    <td>
+                        For removing an item we write; <br> localStorage.removeItem(key);
+                    </td>
+                    <td>For removing an item we write; <br> sessionStorage.removeItem(key);</td>
+                   
+                  </tr>
+                </tbody>
+              </table>
         </section>
         <footer></footer>
 
